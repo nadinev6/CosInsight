@@ -23,19 +23,29 @@
         <img src="images/Icon 48x48.png">
     </div>
     <div class="chat-menu-title">
-        Chat with Cos•Insight
+        <label class="toggle">
+            <input class="toggle-checkbox" type="checkbox">
+            <div class="toggle-switch"></div>
+            <span class="toggle-label">EU Regulation</span>
+          </label>
     </div>
+   
     <div class="chat-menu-logout">
         <a href="index.html" class="button">Log Out</a>
     </div>
 </header>
 
 <body>
+
        
 <section>
-        <div class="chat-box">
+   <div class="chat-box">
+    <p style="text-align: center; font-size: 40px;">Hello!</p>
+    <br>
+    <br>
             <div class="chat-messages" id="chatMessages">
                 </div>
+                  <br>
             <div class="chat-input">
                 <input type="text" id="chatInput" placeholder="Type your message...">
                 <button id="sendButton"><i class="fa-brands fa-rocketchat"></i></button>
@@ -44,6 +54,8 @@
 
         <script src="assets/js/chat.js"></script>
     </section>
+
+    
 
             <footer id="footer">
                 <div class="copyright">
