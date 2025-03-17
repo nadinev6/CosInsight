@@ -982,7 +982,7 @@ a:hover {
 		}
 
 		#ingredientSearch:focus {
-			background-color: #98FB98;
+			background-color: var(--complementary-green);
 			color: #000;
 			font-weight: 500;
 		  }
@@ -1002,7 +1002,7 @@ a:hover {
 		}
 		
 		.button.alt.big:hover {
-			background-color: #98FB98;
+			background-color: var(--complementary-green);
 			color: #000;
 		}
 
